@@ -3,6 +3,25 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>AXE BOAT #MIXFORPEACE avec INCREDIBOX</title>
+		<script src="js/ruffle.js"></script>
+
+        <script>
+            // SETUP RUFFLE CONFIG BEFORE LOAD
+            window.RufflePlayer = window.RufflePlayer || {};
+            window.RufflePlayer.config = {
+                "allowScriptAccess": "always",
+                "autoplay": "on",
+                "unmuteOverlay": "hidden",
+                "letterbox": "on",
+                "warnOnUnsupportedContent": false
+            };
+
+            // FLASH MOCKS TO MAKE IT WORK AND JAOLOR YOUFORGOT TO ADD THE SAVEGA TO HERE
+            window.ga = window.ga || function() {};
+            window.saveGA = function(c, l) { console.log("Track:", c, l); };
+            window.getHash = function() { return ""; };
+            window.embedFlashOk = function() { return true; };
+        </script>
 		<meta name="description" content="Créer ton #MIXFORPEACE avec INCREDIBOX et décroche ton week-end all inclusive pour deux à Cannes avec accès VIP sur le AXE BOAT
 , accès à une plage privée et une nuit dans un hôtel de luxe !">
 		
