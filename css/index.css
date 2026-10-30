@@ -181,7 +181,7 @@ h1, h2, h3, p, span{
 	margin-top:-39px;
 	width:116px;
 	height:180px;
-	background-image: url('../img/menu-bandeau.png');
+	background-image: url('../img/menu-bandeau.svg');
 	background-repeat: no-repeat;
 	cursor: pointer;
 }
@@ -201,12 +201,12 @@ h1, h2, h3, p, span{
 	margin:0px;
 	margin-left:0px;
 }
-#menu #hd-left #bt1 .picto{ background-image: url('../img/picto-head.png'); }
-#menu #hd-left #bt2 .picto{ background-image: url('../img/picto-top50.png'); }
-#menu #hd-left #bt3 .picto{ background-image: url('../img/picto-goodies.png'); }
-#menu #hd-left #bt4 .picto{ background-image: url('../img/picto-shop.png'); }
+#menu #hd-left #bt1 .picto{ background-image: url('../img/picto-head.svg'); }
+#menu #hd-left #bt2 .picto{ background-image: url('../img/picto-top50.svg'); }
+#menu #hd-left #bt3 .picto{ background-image: url('../img/picto-goodies.svg'); }
+#menu #hd-left #bt4 .picto{ background-image: url('../img/picto-shop.svg'); }
 #menu.mix #hd-left .lien#bt1{
-	background-image: url('../img/menu-bandeau-bleu.png');
+	background-image: url('../img/menu-bandeau-bleu.svg');
 }
 #menu.mix #hd-left .lien#bt1 .picto{
 	opacity: 1;
